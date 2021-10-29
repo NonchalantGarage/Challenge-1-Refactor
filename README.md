@@ -6,3 +6,8 @@ Scouts honor, leave code better than you found it. The goal of this porject was 
 ## Tech
 HTML & CSS
 
+## Link
+https://nonchalantgarage.github.io/Challenge-1-Refactor/
+
+## Screenshot
+![Alt text](/assets/images/mock.png "Mock")
