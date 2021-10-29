@@ -5,6 +5,7 @@
 }
 
 /* header style start */
+/* updated div to nav */
 
 .header {
     padding: 20px;
@@ -22,7 +23,7 @@
     color: #d9dcd6;
 }
 
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -30,11 +31,11 @@
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -81,7 +82,7 @@ p {
 }
 
 /* benefits style start */
-
+/* consolidated benefit lead, brand and cost to one class called benefit-aside */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -93,49 +94,17 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit-aside {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefit-aside h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+.benefit-aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -143,10 +112,10 @@ p {
 
 /* benefits style end */
 
-/* consolidated Search Engine Optimization Online Reputation Social Media Marketing to one class  */
+/* consolidated Search Engine Optimization, Online, Reputation, Social Media Marketing to content-section class  */
+/* Section content-section start */
 
-
-.content-block {
+.content-section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -155,14 +124,15 @@ p {
     color: #ffffff;
 }
 
-.content-block img {
+.content-section img {
     max-height: 200px;
 }
 
-.content-block h2 {
+.content-section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* section content-block end */
 
 /* footer style start */
 .footer {
